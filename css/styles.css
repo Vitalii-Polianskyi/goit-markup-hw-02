@@ -15,6 +15,18 @@
   letter-spacing: 0.02em;
   background-color: var(--white-color);
 }
+.logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logo .color {
+  color: var(--primary-color);
+}
 
 .list-none {
   list-style: none;
@@ -22,29 +34,25 @@
 .text-none {
   text-decoration: none;
 }
+.blok {
+  display: none;
+}
 
 .nav-header {
   color: var(--dark-color);
   font-weight: 500;
-  font-size: 16px;
+  /* font-size: 16px; */
 
   line-height: 1.5;
 }
 .text-contact {
   color: var(--body-text);
-  font-size: 16px;
+  /* font-size: 16px; */
 
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-/* .body-text {
-  color: var(--body-text);
-  font-size: 16px;
-
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-} */
 .active:hover,
 .active:focus {
   color: var(--pressed-color);
