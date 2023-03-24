@@ -1,3 +1,12 @@
+body {
+  font-family: "Roboto", "sans-serif";
+  color: var(--body-text);
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: var(--white-color);
+}
+
 :root {
   --primary-color: #4d5ae5;
   --pressed-color: #404bbf;
@@ -7,14 +16,6 @@
   --back-color-button: #e7e9fc;
   --back-graund-color: #e5e5e5;
   --back-color-section: #f4f4fd;
-}
-body {
-  font-family: "Roboto", "sans-serif";
-  color: var(--body-text);
-
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  background-color: var(--white-color);
 }
 
 .Header-two {
