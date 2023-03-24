@@ -6,8 +6,9 @@
   --body-text: #434455;
   --back-color-button: #e7e9fc;
   --back-graund-color: #e5e5e5;
+  --back-color-section: #f4f4fd;
 }
-.body {
+body {
   font-family: "Roboto", "sans-serif";
   color: var(--body-text);
 
@@ -15,14 +16,25 @@
   letter-spacing: 0.02em;
   background-color: var(--white-color);
 }
-.logo {
+
+.Header-two {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+. .logo {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 .logo .color {
   color: var(--primary-color);
@@ -31,19 +43,38 @@
 .list-none {
   list-style: none;
 }
+.list-none a {
+  text-decoration: none;
+}
 .text-none {
   text-decoration: none;
 }
 .blok {
   display: none;
 }
-
+address {
+  font-style: normal;
+}
 .nav-header {
   color: var(--dark-color);
   font-weight: 500;
   /* font-size: 16px; */
 
   line-height: 1.5;
+}
+.hero {
+  background-color: var(--dark-color);
+}
+h1 {
+  color: var(--white-color);
+  font-family: "Roboto";
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.26;
+
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .text-contact {
   color: var(--body-text);
@@ -64,6 +95,9 @@
 
   line-height: 1.2;
 }
+.back-color {
+  background-color: var(--back-color-section);
+}
 .btn:hover,
 .btn:focus {
   background-color: var(--pressed-color);
@@ -79,4 +113,23 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  font-family: inherit;
+}
+.btn-order {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+.btn-order:hover,
+.btn-order:focus {
+  background-color: var(--pressed-color);
+}
+
+footer {
+  background-color: var(--dark-color);
+}
+footer > .footer-color {
+  color: var(--white-color);
+}
+.color-white {
+  color: var(--white-color);
 }
