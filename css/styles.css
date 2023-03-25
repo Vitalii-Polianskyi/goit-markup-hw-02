@@ -100,6 +100,7 @@ address {
   letter-spacing: 0.04em;
   color: var(--primary-color);
   background-color: var(--back-color-section);
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
