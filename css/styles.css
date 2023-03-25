@@ -119,7 +119,7 @@ address {
   letter-spacing: 0.02em;
 }
 .back-color {
-  background-color: var(--back-color-section);
+  background-color: var(--back-color);
 }
 .footer-background {
   background-color: var(--dark-color);
