@@ -23,25 +23,32 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-. .logo {
+.logo {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--dark-color);
-}
-.logo .color {
   color: var(--primary-color);
 }
-
-.list-none {
-  list-style: none;
-}
-.list-none a {
+.link {
   text-decoration: none;
 }
+.list {
+  list-style: none;
+}
+.color {
+  color: var(--dark-color);
+}
+.nav-header {
+  color: var(--dark-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .text-none {
   text-decoration: none;
 }
@@ -51,81 +58,10 @@ body {
 address {
   font-style: normal;
 }
-.nav-header {
-  color: var(--dark-color);
-  font-weight: 500;
-  /* font-size: 16px; */
-
-  line-height: 1.5;
-}
-.hero {
-  background-color: var(--dark-color);
-}
-h1 {
-  color: var(--white-color);
-  font-family: "Roboto";
-
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.26;
-
-  text-align: center;
-  letter-spacing: 0.02em;
-}
-.text-contact {
-  color: var(--body-text);
-  /* font-size: 16px; */
-
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 .active:hover,
 .active:focus {
   color: var(--pressed-color);
 }
-.headers {
-  color: var(--dark-color);
-  font-size: 20px;
-  font-weight: 500;
-
-  line-height: 1.2;
-}
-.back-color {
-  background-color: var(--back-color-section);
-}
-.btn:hover,
-.btn:focus {
-  background-color: var(--pressed-color);
-  color: var(--white-color);
-}
-.btn {
-  color: var(--primary-color);
-  background-color: var(--back-color-button);
-  border: none;
-  font-weight: 500;
-  font-size: 16px;
-
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  font-family: inherit;
-}
-.btn-order {
-  color: var(--white-color);
-  background-color: var(--primary-color);
-}
-.btn-order:hover,
-.btn-order:focus {
-  background-color: var(--pressed-color);
-}
-
-footer {
-  background-color: var(--dark-color);
-}
-footer > .footer-color {
-  color: var(--white-color);
-}
-.color-white {
-  color: var(--white-color);
+.list a {
+  color: var(--body-text);
 }
