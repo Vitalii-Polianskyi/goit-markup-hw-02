@@ -62,7 +62,7 @@ address {
   color: var(--pressed-color);
 }
 .list a {
-  color: var(--body-text);
+  color: var(--dark-color);
 }
 .text-contact {
   line-height: 1.5;
