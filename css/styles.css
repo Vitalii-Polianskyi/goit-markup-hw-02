@@ -62,3 +62,7 @@ address {
 .list a {
   color: var(--body-text);
 }
+.text-contact {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
