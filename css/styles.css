@@ -119,6 +119,9 @@ address {
   letter-spacing: 0.02em;
 }
 .back-color {
+  background-color: var(--back-color-section);
+}
+.back-color > ul {
   background-color: var(--white-color);
 }
 .footer-background {
