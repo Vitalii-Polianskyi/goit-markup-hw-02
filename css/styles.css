@@ -92,6 +92,20 @@ address {
 .btn-order:focus {
   background-color: var(--back-color-btn-order);
 }
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-color);
+  background-color: var(--back-color-section);
+}
+.btn:hover,
+.btn:focus {
+  color: var(--white-color);
+  background-color: var(--pressed-color);
+}
 .headers {
   font-weight: 500;
   font-size: 20px;
@@ -104,7 +118,7 @@ address {
   letter-spacing: 0.02em;
 }
 .back-color {
-  background-color: var(--white-color);
+  background-color: var(--back-color-section);
 }
 .footer-background {
   background-color: var(--dark-color);
@@ -114,4 +128,7 @@ address {
 }
 .par-footer-color {
   color: var(--back-color-section);
+}
+.menu {
+  background-color: var(--white-color);
 }
