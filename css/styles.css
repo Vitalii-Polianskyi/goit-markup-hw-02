@@ -19,10 +19,11 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--dark-color);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -90,4 +91,27 @@ address {
 .btn-order:hover,
 .btn-order:focus {
   background-color: var(--back-color-btn-order);
+}
+.headers {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.par {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.back-color {
+  background-color: var(--white-color);
+}
+.footer-background {
+  background-color: var(--dark-color);
+}
+.footer-background .color {
+  color: var(--back-color-section);
+}
+.par-footer-color {
+  color: var(--back-color-section);
 }
