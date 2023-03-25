@@ -118,6 +118,7 @@ address {
 .par {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--body-text);
 }
 .back-color {
   background-color: var(--back-color-section);
