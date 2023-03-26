@@ -44,7 +44,7 @@ body {
   color: var(--dark-color);
 }
 .nav-header {
-  color: var(--dark-color);
+  color: #434455;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
