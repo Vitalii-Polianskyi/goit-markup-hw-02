@@ -51,7 +51,10 @@ body {
   letter-spacing: 0.02em;
 }
 .li-color {
-  color: #434455;
+  color: var(--body-text);
+}
+.nav-link {
+  color: var(--body-text);
 }
 .blok {
   display: none;
