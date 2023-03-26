@@ -140,3 +140,6 @@ address {
 .menu {
   background-color: var(--white-color);
 }
+.color-sec {
+  background-color: var(--white-color);
+}
