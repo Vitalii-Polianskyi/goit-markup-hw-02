@@ -51,7 +51,7 @@ body {
   letter-spacing: 0.02em;
 }
 .li-color {
-  color: var(--body-text);
+  color: #434455;
 }
 .blok {
   display: none;
