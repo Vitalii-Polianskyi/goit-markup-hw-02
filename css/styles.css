@@ -51,7 +51,7 @@ body {
   letter-spacing: 0.02em;
 }
 .li-color {
-  color: var(--body-text);
+  color: var(--dark-color);
 }
 
 .blok {
@@ -67,7 +67,7 @@ address {
 .list a {
   color: var(--dark-color);
 }
-.list .nav-link {
+a.nav-link {
   color: var(--body-text);
 }
 .text-contact {
