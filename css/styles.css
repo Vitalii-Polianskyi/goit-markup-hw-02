@@ -44,7 +44,7 @@ body {
   color: var(--dark-color);
 }
 .nav-header {
-  color: #434455;
+  color: var(--body-text);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -53,15 +53,12 @@ body {
 .li-color {
   color: var(--body-text);
 }
-.nav-link {
-  color: var(--body-text);
-}
+
 .blok {
   display: none;
 }
 address {
   font-style: normal;
-  color: var(--body-text);
 }
 .active:hover,
 .active:focus {
@@ -69,6 +66,9 @@ address {
 }
 .list a {
   color: var(--dark-color);
+}
+.list .nav-link {
+  color: var(--body-text);
 }
 .text-contact {
   line-height: 1.5;
